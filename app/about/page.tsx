@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
     return (
         <section id="about" className="py-20 text-center grid place-items-center min-h-screen">
@@ -12,7 +14,7 @@ const About = () => {
 
                 <h3 className="text-5x1 mt-6 mb-10 font-semibold">Web Developer</h3>
                 <div className="grid grid-cols-3 gap-2 mt-4">
-                    <div> <img src="/5.png" alt="Profile"
+                    <div> <Image src="/5.png" alt="Profile"
                         width={250} height={250} className="rounded-lg shadow-lg w-50 h-60 object-cover ml-5" /></div>
 
                     <div className="text-left space-y-8">
@@ -28,7 +30,7 @@ const About = () => {
                 </div>
                 <p className="text-center text-gray-600 dark:text-gray-300 mt-6">
                     I thrive on solving complex problems and continually learning new technologies. My goal is to contibute to
-                    innovative projects that make a positive impact. Let's work together to bring your ideas to life!
+                    innovative projects that make a positive impact. Let&aposs work together to bring your ideas to life!
                 </p>
             </div>
         </section>

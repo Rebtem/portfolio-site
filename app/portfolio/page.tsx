@@ -1,5 +1,5 @@
-import { MdDescription } from "react-icons/md";
 
+import Image from "next/image";
 const projects = [
     {
         title: "Job Board",
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 <div className="grid md:grid-cols-2 gap-6 mt-6">
                     {projects.map((project, index) => (
                         <div key={index} className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                            <img src={project.image} alt={project.title} className="mx-auto rounded-md mb-4 object-cover w-45 h-40" />
+                            <Image src={project.image} alt={project.title} className="mx-auto rounded-md mb-4 object-cover w-45 h-40" />
                             <h3 className="text-gray-600 dark:text-gray-300">{project.title}</h3>
                             <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
                         </div>

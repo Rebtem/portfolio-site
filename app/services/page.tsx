@@ -1,4 +1,4 @@
-import { FaCode, FaChalkboardTeacher, FaChartBar } from "react-icons/fa";
+import { FaCode, FaChalkboardTeacher } from "react-icons/fa";
 
 const services = [
     {
