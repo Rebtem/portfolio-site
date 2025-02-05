@@ -4,45 +4,45 @@ const projects = [
     {
         title: "Job Board",
         description: "A platform for remote job posting built with NestJS and Supabase.",
-        image: "./job-site.png",
+        image: "/job-site.png",
     },
     {
         title: "Calculator",
         description: "The calculator is a versatile tool designed to handle basic arithmetic operation along with advanced functionalities.",
-        image: "./calculator-project.png",
+        image: "/calculator-project.png",
     },
     {
         title: "Employee Search",
         description: "This project is capable of searching for employee by their name and department",
-        image: "./employee-directory.png",
+        image: "/employee-directory.png",
 
     },
     {
         title: "Color-marker",
         description: "This is a maker with different colors and the first two can rotate",
-        image: "./maker-rolling.PNG",
+        image: "/maker-rolling.PNG",
     },
     {
         title: "chat-app",
         description: "This is a chat-app.",
-        image: "./Chat-app.PNG",
+        image: "/Chat-app.PNG",
     },
 
     {
         title: "To-Do-List",
         description: "This app can be used to list task to do, once completed it can be deleted",
-        image: "./To-do-list.PNG",
+        image: "/To-do-list.PNG",
     },
 
     {
         title: "JDK Furniture",
         description: "JDK Furniture Website",
-        image: "./Furniture.PNG",
+        image: "/Furniture.PNG",
     },
     {
         title: "JDK Furniture",
         description: "JDK Furniture Website",
-        image: "./Furniture.PNG",
+        image: "/Furniture.PNG",
     },
 
 
