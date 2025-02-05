@@ -4,17 +4,17 @@ const projects = [
     {
         title: "Job Board",
         description: "A platform for remote job posting built with NestJS and Supabase.",
-        image: "/job-site.png",
+        image: "/job-site.PNG",
     },
     {
         title: "Calculator",
         description: "The calculator is a versatile tool designed to handle basic arithmetic operation along with advanced functionalities.",
-        image: "/calculator-project.png",
+        image: "/calculator-project.PNG",
     },
     {
         title: "Employee Search",
         description: "This project is capable of searching for employee by their name and department",
-        image: "/employee-directory.png",
+        image: "/employee-directory.PNG",
 
     },
     {
