@@ -19,7 +19,7 @@ const Resume: FC = () => {
             </div>
 
             <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
-              <h4 className="text-xl font-bold"> Bachelor&aposs Degree</h4>
+              <h4 className="text-xl font-bold"> Bachelors Degree</h4>
               <p className="text-sm">Computer Engineering - LAUTECH</p>
               <p className="text-sm text-gray-500 dark:text-gray-400">2009 - 2014 </p>
             </div>

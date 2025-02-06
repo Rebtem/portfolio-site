@@ -21,8 +21,8 @@ const Hero = () => {
                 </h2>
                 <div className="flex mt-4 space-x-5">
                     <div className="text-white cursor-pointer "><a href="https://x.com/Rebetemi" target="_blank">  <FaTwitter size={30} /></a></div>
-                    <div className="text-white cursor-pointer"><a href=""> <FaFacebook size={30} /></a></div>
-                    <div className="text-white cursor-pointer"><a href=""><FaInstagram size={30} /></a></div>
+                    <div className="text-white cursor-pointer"><a href="https://web.facebook.com/profile.php?id=61572563563803"> <FaFacebook size={30} /></a></div>
+                    <div className="text-white cursor-pointer"><a href="https://www.instagram.com/rebeccaokunola/"><FaInstagram size={30} /></a></div>
                     <div className="text-white cursor-pointer "><a href="https://www.linkedin.com/in/rebecca-okunola-" > <FaLinkedin size={30} /></a></div>
                     <div className="text-white cursor-pointer"><a href="https://github.com/Rebtem"><FaGithub size={30}/></a></div>
 
