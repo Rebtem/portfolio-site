@@ -20,11 +20,11 @@ const Hero = () => {
                     <span className="ml-4"> <Typewriter words={["Freelancer", "Developer"]} loop={true} /></span>
                 </h2>
                 <div className="flex mt-4 space-x-5">
-                    <div className="text-white cursor-pointer "><a href="https://x.com/Rebetemi" target="_blank">  <FaTwitter size={30} /></a></div>
-                    <div className="text-white cursor-pointer"><a href="https://web.facebook.com/profile.php?id=61572563563803"> <FaFacebook size={30} /></a></div>
-                    <div className="text-white cursor-pointer"><a href="https://www.instagram.com/rebeccaokunola/"><FaInstagram size={30} /></a></div>
-                    <div className="text-white cursor-pointer "><a href="https://www.linkedin.com/in/rebecca-okunola-" > <FaLinkedin size={30} /></a></div>
-                    <div className="text-white cursor-pointer"><a href="https://github.com/Rebtem"><FaGithub size={30}/></a></div>
+                    <div className="text-white cursor-pointer "><a href="https://x.com/Rebetemi" target="_blank" rel="noopener noreferrer" className="pointer-events-auto hover:opacity-70 "><FaTwitter size={30}/></a></div>
+                    <div className="text-white cursor-pointer"><a href="https://web.facebook.com/profile.php?id=61572563563803" target="_blank" rel="noopener noreferrer" className="pointer-events-auto"> <FaFacebook size={30} /></a></div>
+                    <div className="text-white cursor-pointer"><a href="https://www.instagram.com/rebeccaokunola/" target="_blank" rel="noopener noreferrer" className="pointer-events-auto"><FaInstagram size={30} /></a></div>
+                    <div className="text-white cursor-pointer "><a href="https://www.linkedin.com/in/rebecca-okunola-" target="_blank" rel="noopener noreferrer" className="pointer-events-auto" > <FaLinkedin size={30} /></a></div>
+                    <div className="text-white cursor-pointer"><a href="https://github.com/Rebtem" target="_blank" rel="noopener noreferrer" className="pointer-events-auto"><FaGithub size={30}/></a></div>
 
                 </div>
 
