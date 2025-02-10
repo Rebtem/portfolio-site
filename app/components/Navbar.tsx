@@ -24,7 +24,7 @@ const Navbar = () => {
     ];
     return (
       <nav className="fixed left-0 top-0 h-full w-16 flex flex-col bg-black bg-opacity-50 dark:bg-gray-900 z-50 text-white items-center py-5">
-        <div className="mb-10 text-8x1 font-bold">RT</div>
+        <div className="mb-10 text-4xl font-bold">RT</div>
         {menuItems.map((item, index) => (
           <Link key={index} href={item.href} className="relative group my-4">
             <div className="flex flex-col items-center cursor-pointer" >
