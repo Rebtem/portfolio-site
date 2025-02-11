@@ -74,6 +74,16 @@ const Resume: FC = () => {
               <p className="text-sm">(Next.js, TypeScript, Supabase</p>
               <p className="text-sm text-gray-500 dark:text-gray-400">Design and deploy a personal portfolio with dark mode and smooth animations.
               </p>
+
+            </div>
+
+            <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg">
+              <h4 className="text-xl font-bold">University Website</h4>
+              <p className="text-sm">(Next.js, TypeScript, Supabase</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Design and deploy a university portal with authentication.
+                
+              </p>
+              
             </div>
 
 
