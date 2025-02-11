@@ -51,7 +51,7 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="py-29 text-center grid place-items-center min-h-screen">
             <div className="w-[70%]">
-                <h2 className="text-4xl font-bold lg:text-[30px]">Portfolio</h2>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Portfolio</h2>
                 <div className="border-b-2w-16 mx-auto my-4" ></div>
 
                 <div className="grid md:grid-cols-2 gap-6 mt-6">
