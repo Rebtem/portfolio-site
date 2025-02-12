@@ -49,22 +49,29 @@ const projects = [
 ];
 const Portfolio = () => {
     return (
-        <section id="portfolio" className="py-29 text-center grid place-items-center min-h-screen">
-            <div className="w-[70%]">
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Portfolio</h2>
-                <div className="border-b-2w-16 mx-auto my-4" ></div>
+        <section id="portfolio" className="py-16 text-center min-h-screen">
+        <div className="max-w-[90%] sm:max-w-[80%] md:max-w-[70%] mx-auto">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold">Portfolio</h2>
+          <div className="border-b-2 w-16 mx-auto my-4"></div>
 
-                <div className="grid md:grid-cols-2 gap-6 mt-6">
-                    {projects.map((project, index) => (
-                        <div key={index} className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
-                            <Image src={project.image} alt={project.title} width={300} height={200} className="mx-auto rounded-md mb-4 object-cover w-45 h-40" />
-                            <h3 className="text-gray-600 dark:text-gray-300">{project.title}</h3>
-                            <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
-                        </div>
-                    ))}
-                </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          {projects.map((project, index) => (
+            <div key={index} className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow-md">
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={400}
+                height={250}
+                className="w-full h-auto rounded-md mb-4 object-cover"
+              />
+              <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">{project.title}</h3>
+              <p className="text-gray-600 dark:text-gray-400">{project.description}</p>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
+
 export default Portfolio;

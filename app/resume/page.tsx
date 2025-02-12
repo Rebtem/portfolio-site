@@ -8,6 +8,10 @@ const Resume: FC = () => {
       <div className="w-[70%]">
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Resume</h2>
         <div className="border-b-2 w-16 mx-auto my-4"></div>
+        <p>
+        📧 rebtem70@gmail.com | 📞 +2348063064740 | 🔗 https://github.com/Rebtem
+| 🔗 https://portfolio-rebeccaokunola.vercel.app
+        </p>
         <p className="text-lg">Motivated Junior Software Developer with a Bachelors degree in Computer Engineering.
           Passionate Frontend Developer with experience in building dynamic and responsive web applications using Next.js, React, TypeScript, and Tailwind CSS. Skilled in Supabase for database management and authentication. Adept at creating seamless user experiences and optimizing performance.
           Seeking opportunities to contribute innovative solutions to development teams.</p>

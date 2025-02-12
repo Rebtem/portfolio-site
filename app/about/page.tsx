@@ -47,7 +47,7 @@ const About = () => {
                 <p className="text-center text-gray-600 dark:text-gray-300 mt-6">
                     I thrive on solving complex problems and continually learning new technologies. 
                     My goal is to contribute to innovative projects that make a positive impact. 
-                    Let's work together to bring your ideas to life!
+                    Lets work together to bring your ideas to life!
                 </p>
             </div>
         </section>
