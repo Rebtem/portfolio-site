@@ -3,7 +3,7 @@ const projects = [
   {
     title: "Job Board",
     description:
-      "A platform for remote job posting built with NestJS and Supabase.",
+      "A platform for remote job posting built with NestJS and Supabase. (work in progress)",
     link: "https://job-sites-wheat.vercel.app/",
     image: "/job-site.PNG",
   },
