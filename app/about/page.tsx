@@ -14,9 +14,13 @@ const About = () => {
 
         <p className="text-center text-gray-600 dark:text-gray-300 mt-4">
           I am a passionate and dedicated software developer with a strong
-          background in building modern web applications. With a focus on clean
-          code, responsive design, and efficient problem-solving, I create
-          digital experiences that are both functional and visually appealing.
+          background in building modern web applications, and a reliable Virtual
+          Assistant with excellent organizational and communication skills. I
+          combine technical expertise with administrative efficiency to deliver
+          seamless digital experiences, manage tasks effectively, and support
+          teams remotely. With a focus on clean code, responsive design, and
+          proactive support, I ensure both productivity and professionalism in
+          every project I handle.
         </p>
 
         <h3 className="text-2xl sm:text-3xl lg:text-5xl mt-6 mb-10 font-semibold">

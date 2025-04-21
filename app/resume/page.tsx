@@ -14,16 +14,13 @@ const Resume: FC = () => {
         <p>
           📧 rebtem70@gmail.com | 📞 +2348063064740 | 🔗
           https://github.com/Rebtem | 🔗
-          https://portfolio-rebeccaokunola.vercel.app
+          portfolio-site-git-master-okunola-rebecca-s-projects.vercel.app
         </p>
         <p className="text-lg ">
-          I am a Software Developer and Virtual Assistant with four years of
-          experience helping businesses stay organized and efficient. I
-          specialize in frontend and backed development using Next.js, React,
-          Node.js and Supabase. Also, I handle administrative tasks like email
-          management, scheduling and customer support. I combine technical
-          expertise with strong organizational skills to improve workflows and
-          deliver seamless digital solutions.
+          I am a detail-oriented Virtual Assistant with a technical background
+          in web development. Skilled in administrative support, calendar
+          management, communication, and modern collaboration tools. Adept at
+          handling technical and executive-level support remotely.
         </p>
         <div className="grid grid-cols-2 gap-6 mt-6">
           <div>
