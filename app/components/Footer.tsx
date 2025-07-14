@@ -1,4 +1,8 @@
 // components/Footer.tsx
+"use client";
+
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10 px-6">
@@ -17,24 +21,24 @@ export default function Footer() {
           <h3 className="text-white font-semibold mb-2">Navigation</h3>
           <ul className="space-y-1 text-sm">
             <li>
-              <a href="/" className="hover:text-white">
+              <Link href="/" className="hover:text-white">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="hover:text-white">
+              <Link href="/about" className="hover:text-white">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/projects" className="hover:text-white">
+              <Link href="/projects" className="hover:text-white">
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white">
+              <Link href="/contact" className="hover:text-white">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
