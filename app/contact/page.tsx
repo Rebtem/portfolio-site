@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         <div className="space-y-4 p-4">
           <p>
-            <strong> Address: </strong> Obantoko, Abeokuta
+            <strong> Address: </strong> Lagos
           </p>
           <p>
             <strong> Call Us: </strong> +234 8063064740

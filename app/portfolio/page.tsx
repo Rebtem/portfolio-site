@@ -1,11 +1,19 @@
 import Image from "next/image";
+
 const projects = [
+  {
+    title: "Portfolio",
+    description:
+      "A personal portfolio website built with WordPress, showcasing projects, a clean layout, easy navigation, and a contact form. Hosted on a free domain.",
+    link: "http://rebtemsite.rf.gd/",
+    image: "/REB1.PNG", // add this image to your public folder
+  },
   {
     title: "Job Board",
     description:
       "A platform for remote job posting built with NestJS and Supabase. (work in progress)",
-    link: "https://job-sites-wheat.vercel.app/",
-    image: "/job-site.PNG",
+    //link: "https://job-sites-wheat.vercel.app/",
+    image: "/JOB.JPEG",
   },
   {
     title: "Calculator",
@@ -16,40 +24,40 @@ const projects = [
   {
     title: "Employee Search",
     description:
-      "This project is capable of searching for employee by their name and department",
+      "This project is capable of searching for employee by their name and department.",
     image: "/employee-directory.PNG",
   },
   {
     title: "Color-marker",
     description:
-      "This is a maker with different colors and the first two can rotate",
+      "This is a marker with different colors and the first two can rotate.",
     image: "/maker-rolling.PNG",
   },
   {
-    title: "chat-app",
-    description: "This is a chat-app.",
+    title: "Chat App",
+    description: "A simple real-time chat application built with modern tools.",
     image: "/Chat-app.PNG",
   },
-
   {
-    title: "To-Do-List",
+    title: "To-Do List",
     description:
-      "This app can be used to list task to do, once completed it can be deleted",
+      "This app can be used to list tasks to do. Once completed, they can be deleted.",
     image: "/To-do-list.PNG",
   },
-
   {
     title: "JDK Furniture",
-    description: "JDK Furniture Website",
+    description: "A responsive website for a furniture business.",
     image: "/Furniture.PNG",
   },
   {
-    title: "E-commerce website",
-    description: "An ecommerce site (work in progress)",
+    title: "E-commerce Website",
+    description:
+      "An ecommerce site for product listings and checkout (in progress).",
     link: "https://e-commerce-4-fawn.vercel.app/",
     image: "/E-commerce.png",
   },
 ];
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="py-16 text-center min-h-screen">
@@ -75,17 +83,19 @@ const Portfolio = () => {
               <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300">
                 {project.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-gray-600 dark:text-gray-400 mt-1">
                 {project.description}
               </p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline"
-              >
-                {project.link}
-              </a>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline mt-2 inline-block"
+                >
+                  Visit Project
+                </a>
+              )}
             </div>
           ))}
         </div>

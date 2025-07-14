@@ -39,13 +39,13 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-col items-center justify-center h-full">
         <h1 className="text-5xl font-bold lg:text-[60px] text-white">
-          Okunola <span className="text-red">Rebecca</span>
+          Okunola <span className="text-red">Rebecca Temitope</span>
         </h1>
         <h2 className="text-4xl mt-3 text-white font-bold lg:text-[40px]">
           I am a
           <span className="ml-4">
             <Typewriter
-              words={["Freelancer", "Developer", "Virtual Assistant"]}
+              words={["Freelancer", "Developer", "Data/Business Analyst"]}
               loop={true}
               cursor
               cursorStyle="|"
