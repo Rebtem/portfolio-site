@@ -22,7 +22,7 @@ const Resume: FC = () => {
             </a>{" "}
             | 🔗{" "}
             <a
-              href="https://portfolio-site-git-master-okunola-rebecca-s-projects.vercel.app"
+              href="https://portfolio-git-master-okunola-rebecca-s-projects.vercel.app/"
               className="text-blue-500 hover:underline"
               target="_blank"
             >
